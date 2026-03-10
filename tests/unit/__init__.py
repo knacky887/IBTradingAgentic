@@ -1,0 +1,1 @@
+"""TradingApp — Unit Tests Package"""

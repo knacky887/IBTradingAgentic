@@ -1,0 +1,57 @@
+# ============================================================
+# TradingApp — Logging Configuration
+# ============================================================
+
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  json:
+    class: pythonjsonlogger.jsonlogger.JsonFormatter
+    format: "%(asctime)s %(name)s %(levelname)s %(message)s"
+  console:
+    format: "%(asctime)s | %(levelname)-8s | %(name)-25s | %(message)s"
+    datefmt: "%H:%M:%S"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: console
+    stream: ext://sys.stdout
+
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: json
+    filename: logs/trading.log
+    maxBytes: 52428800  # 50 MB
+    backupCount: 10
+    encoding: utf-8
+
+  error_file:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: json
+    filename: logs/errors.log
+    maxBytes: 10485760  # 10 MB
+    backupCount: 5
+    encoding: utf-8
+
+loggers:
+  tradingapp:
+    level: DEBUG
+    handlers: [console, file, error_file]
+    propagate: false
+  tradingapp.agents:
+    level: DEBUG
+    handlers: [console, file, error_file]
+    propagate: false
+  tradingapp.strategies:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+
+root:
+  level: WARNING
+  handlers: [console, file]

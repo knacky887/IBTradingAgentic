@@ -1,0 +1,3 @@
+"""
+TradingApp — Core Package
+"""

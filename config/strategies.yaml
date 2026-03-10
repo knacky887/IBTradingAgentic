@@ -1,0 +1,196 @@
+# ============================================================
+# TradingApp — Strategy Configuration
+# ============================================================
+# Each strategy can be toggled on/off and has its own params.
+
+strategies:
+
+  # ── Trend Following ──────────────────────────────────────
+  dual_ma_crossover:
+    enabled: true
+    family: "trend_following"
+    params:
+      fast_period: 20
+      slow_period: 50
+      adx_threshold: 25
+      adx_period: 14
+
+  donchian_breakout:
+    enabled: false
+    family: "trend_following"
+    params:
+      entry_period: 20
+      exit_period: 10
+
+  tsmom:
+    enabled: false
+    family: "trend_following"
+    params:
+      lookback_months: 12
+      vol_target: 0.15
+
+  kaufman_ama:
+    enabled: false
+    family: "trend_following"
+    params:
+      efficiency_period: 10
+      fast_sc: 2
+      slow_sc: 30
+
+  linreg_channel:
+    enabled: false
+    family: "trend_following"
+    params:
+      period: 60
+      channel_width_sigma: 2.0
+
+  heikin_ashi_momentum:
+    enabled: false
+    family: "trend_following"
+    params:
+      consecutive_candles: 3
+
+  roc_breakout:
+    enabled: false
+    family: "trend_following"
+    params:
+      roc_period: 14
+      threshold: 0.05
+      volume_surge_factor: 1.5
+
+  # ── Mean Reversion ──────────────────────────────────────
+  bollinger_reversion:
+    enabled: true
+    family: "mean_reversion"
+    params:
+      period: 20
+      num_std: 2.0
+      atr_period: 14
+
+  rsi2_connors:
+    enabled: true
+    family: "mean_reversion"
+    params:
+      rsi_period: 2
+      entry_threshold: 10
+      exit_threshold: 90
+      sma_filter_period: 200
+
+  ornstein_uhlenbeck:
+    enabled: false
+    family: "mean_reversion"
+    params:
+      lookback: 60
+      entry_sigma: 1.5
+      exit_sigma: 0.5
+
+  vwap_reversion:
+    enabled: false
+    family: "mean_reversion"
+    params:
+      entry_sigma: 1.5
+
+  hurst_filter:
+    enabled: false
+    family: "mean_reversion"
+    params:
+      lookback: 100
+      hurst_threshold: 0.4
+
+  # ── Statistical Arbitrage ───────────────────────────────
+  engle_granger_pairs:
+    enabled: true
+    family: "stat_arb"
+    params:
+      lookback: 252
+      zscore_entry: 2.0
+      zscore_exit: 0.5
+      coint_pvalue: 0.05
+
+  johansen_multi_leg:
+    enabled: false
+    family: "stat_arb"
+    params:
+      lookback: 252
+      num_assets: 3
+      zscore_entry: 2.0
+
+  kalman_pairs:
+    enabled: false
+    family: "stat_arb"
+    params:
+      observation_noise: 1.0
+      transition_noise: 0.01
+      zscore_entry: 2.0
+
+  pca_stat_arb:
+    enabled: false
+    family: "stat_arb"
+    params:
+      n_components: 5
+      lookback: 126
+      residual_entry_sigma: 2.0
+
+  copula_arb:
+    enabled: false
+    family: "stat_arb"
+    params:
+      lookback: 252
+      probability_threshold: 0.05
+
+  # ── Cross-Sectional / Factor ────────────────────────────
+  momentum_decile:
+    enabled: false
+    family: "cross_sectional"
+    params:
+      formation_months: 12
+      skip_months: 1
+      n_deciles: 10
+
+  short_term_reversal:
+    enabled: false
+    family: "cross_sectional"
+    params:
+      lookback_days: 5
+      n_deciles: 10
+
+  quality_piotroski:
+    enabled: false
+    family: "cross_sectional"
+    params:
+      long_threshold: 8
+      short_threshold: 2
+
+  low_volatility:
+    enabled: false
+    family: "cross_sectional"
+    params:
+      lookback_days: 252
+      n_quintiles: 5
+
+  earnings_momentum_sue:
+    enabled: false
+    family: "cross_sectional"
+    params:
+      lookback_quarters: 8
+
+  # ── Volatility & Structural ─────────────────────────────
+  vol_regime_hmm:
+    enabled: false
+    family: "volatility"
+    params:
+      n_states: 2
+      lookback: 252
+
+  dispersion_trade:
+    enabled: false
+    family: "volatility"
+    params:
+      index_symbol: "SPY"
+
+  mean_variance_overlay:
+    enabled: false
+    family: "volatility"
+    params:
+      lookback: 126
+      risk_aversion: 2.0

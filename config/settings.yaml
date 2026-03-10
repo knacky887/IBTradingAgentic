@@ -1,0 +1,53 @@
+# ============================================================
+# TradingApp — Global Settings
+# ============================================================
+
+system:
+  mode: "paper"                    # paper | live
+  log_level: "INFO"
+  heartbeat_interval_sec: 10
+  timezone: "US/Eastern"
+
+broker:
+  name: "interactive_brokers"
+  host: "127.0.0.1"
+  port: 7497                       # 7497 = TWS paper, 7496 = TWS live, 4002 = Gateway paper
+  client_id: 1
+  account: ""                      # leave blank to auto-detect
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  db: 0
+  password: ""
+
+universe:
+  source: "sp500"                  # sp500 | custom
+  custom_symbols: []               # used when source = custom
+  refresh_interval_days: 7
+
+risk:
+  max_position_pct: 0.05           # 5% of NAV per position
+  max_sector_pct: 0.25             # 25% of NAV per sector
+  max_daily_drawdown_pct: 0.02     # 2% daily drawdown → halt
+  max_correlated_positions: 5      # max positions with corr > 0.7
+  adv_min_multiplier: 0.01         # order size ≤ 1% of 20-day ADV
+  var_confidence: 0.99             # 99% VaR
+  var_lookback_days: 252
+
+portfolio:
+  rebalance_cadence: "EOD"         # EOD | intraday_15min
+  signal_combination: "conviction" # equal | conviction | inv_vol
+  max_positions: 50
+
+execution:
+  default_order_type: "LIMIT"      # LIMIT | MKT | ADAPTIVE
+  twap_slice_minutes: 5
+  max_slippage_bps: 10
+  allow_extended_hours: false
+
+data:
+  bar_size: "1 min"                # 1 min | 5 mins | 1 hour | 1 day
+  history_days: 504                # ~2 years of trading days
+  storage_path: "data/parquet"
+  redis_timeseries_retention_ms: 604800000  # 7 days in Redis TS

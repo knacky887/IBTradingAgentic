@@ -1,0 +1,109 @@
+{"asctime": "2026-03-10 21:43:02,246", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-03-10 21:43:02,257", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,257", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,260", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,260", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,262", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,263", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,266", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,266", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,510", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,511", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 21:43:02,511", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: BUY AAPL 26"}
+{"asctime": "2026-03-10 21:43:02,512", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,514", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,514", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 21:43:02,515", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (15000 > 5000)): BUY AAPL 100"}
+{"asctime": "2026-03-10 21:43:02,515", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,517", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,518", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 21:43:02,519", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: SELL AAPL 20"}
+{"asctime": "2026-03-10 21:43:02,519", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,521", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,522", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 21:43:02,522", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (halted): BUY AAPL 1"}
+{"asctime": "2026-03-10 21:43:02,522", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 21:43:02,525", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 21:43:02,525", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 21:43:02,526", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: BUY MSFT 10"}
+{"asctime": "2026-03-10 21:43:02,526", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,467", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-03-10 22:02:47,482", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,482", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,486", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,486", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,490", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,490", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,493", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,493", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,548", "name": "tradingapp.utils.data_store", "levelname": "INFO", "message": "Saved 10 bars to C:\\Users\\Georg\\AppData\\Local\\Temp\\pytest-of-Georg\\pytest-1\\test_save_and_load0\\TEST.parquet"}
+{"asctime": "2026-03-10 22:02:47,604", "name": "tradingapp.utils.data_store", "levelname": "INFO", "message": "Saved 3 bars to C:\\Users\\Georg\\AppData\\Local\\Temp\\pytest-of-Georg\\pytest-1\\test_save_without_symbol0\\data.parquet"}
+{"asctime": "2026-03-10 22:02:47,609", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,609", "name": "tradingapp.agents.data_ingestion", "levelname": "INFO", "message": "Data Ingestion starting \u2014 symbols=['AAPL', 'MSFT'], bar_size=1 min"}
+{"asctime": "2026-03-10 22:02:47,610", "name": "tradingapp.agents.data_ingestion", "levelname": "ERROR", "message": "Failed to connect to IB \u2014 running in degraded mode", "exc_info": "Traceback (most recent call last):\n  File \"F:\\TradingApp\\src\\agents\\data_ingestion.py\", line 60, in on_start\n    await self._connect_ib()\n  File \"F:\\TradingApp\\src\\agents\\data_ingestion.py\", line 77, in _connect_ib\n    await asyncio.get_running_loop().run_in_executor(\n  File \"D:\\Anaconda\\Anaconda3\\lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"F:\\TradingApp\\src\\agents\\data_ingestion.py\", line 79, in <lambda>\n    lambda: self._ib.connect(\n  File \"F:\\TradingApp\\venv\\lib\\site-packages\\ib_insync\\ib.py\", line 279, in connect\n    return self._run(self.connectAsync(\n  File \"F:\\TradingApp\\venv\\lib\\site-packages\\ib_insync\\ib.py\", line 318, in _run\n    return util.run(*awaitables, timeout=self.RequestTimeout)\n  File \"F:\\TradingApp\\venv\\lib\\site-packages\\ib_insync\\util.py\", line 309, in run\n    loop = getLoop()\n  File \"F:\\TradingApp\\venv\\lib\\site-packages\\ib_insync\\util.py\", line 464, in getLoop\n    return asyncio.get_event_loop_policy().get_event_loop()\n  File \"D:\\Anaconda\\Anaconda3\\lib\\asyncio\\events.py\", line 642, in get_event_loop\n    raise RuntimeError('There is no current event loop in thread %r.'\nRuntimeError: There is no current event loop in thread 'asyncio_0'."}
+{"asctime": "2026-03-10 22:02:47,631", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,634", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,635", "name": "tradingapp.agents.data_ingestion", "levelname": "INFO", "message": "Disconnected from IB Gateway."}
+{"asctime": "2026-03-10 22:02:47,635", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,639", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,639", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,642", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,644", "name": "tradingapp.agents.data_ingestion", "levelname": "DEBUG", "message": "Published bar: AAPL @ 151.00"}
+{"asctime": "2026-03-10 22:02:47,644", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,648", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,648", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:47,649", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:47,654", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Submitted to IB: BUY AAPL 100 (order_id=6972ed9b-5388-4728-ba8a-52ac820df5e6)"}
+{"asctime": "2026-03-10 22:02:47,656", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,661", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,661", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:47,662", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:47,663", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Submitted to IB: SELL MSFT 50 (order_id=36db03b5-b520-4fc5-a81b-18cb8183567f)"}
+{"asctime": "2026-03-10 22:02:47,664", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:47,667", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:47,668", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:47,669", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:48,173", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "FILLED: BUY AAPL 100 @ 150.50"}
+{"asctime": "2026-03-10 22:02:48,174", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,177", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,177", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:48,178", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:48,178", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "Order not filled \u2014 status: Cancelled"}
+{"asctime": "2026-03-10 22:02:48,179", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,182", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,182", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:48,183", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:48,184", "name": "tradingapp.agents.execution", "levelname": "CRITICAL", "message": "HALT received \u2014 cancelling all open orders"}
+{"asctime": "2026-03-10 22:02:48,185", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,187", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,189", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,191", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,191", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:48,193", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:48,195", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Submitted to IB: BUY GOOG 10 (order_id=c6f0a586-f7e8-44fd-8e7e-9c2962608812)"}
+{"asctime": "2026-03-10 22:02:48,195", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,198", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,199", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-03-10 22:02:48,199", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-03-10 22:02:48,200", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "FILLED: BUY AAPL 100 @ 150.25"}
+{"asctime": "2026-03-10 22:02:48,201", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,203", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,203", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 22:02:48,204", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: BUY AAPL 26"}
+{"asctime": "2026-03-10 22:02:48,205", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,207", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,207", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 22:02:48,208", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (15000 > 5000)): BUY AAPL 100"}
+{"asctime": "2026-03-10 22:02:48,208", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,211", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,212", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 22:02:48,212", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: SELL AAPL 20"}
+{"asctime": "2026-03-10 22:02:48,212", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,215", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,215", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 22:02:48,216", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (halted): BUY AAPL 1"}
+{"asctime": "2026-03-10 22:02:48,216", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-03-10 22:02:48,219", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-03-10 22:02:48,219", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-03-10 22:02:48,220", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: BUY MSFT 10"}
+{"asctime": "2026-03-10 22:02:48,220", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
