@@ -107,3 +107,227 @@
 {"asctime": "2026-03-10 22:02:48,219", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=100000, max_pos=5.0%, max_dd=2.0%"}
 {"asctime": "2026-03-10 22:02:48,220", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: BUY MSFT 10"}
 {"asctime": "2026-03-10 22:02:48,220", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-04-12 15:44:00,443", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-04-12 15:45:12,874", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-04-12 15:45:12,921", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Starting backtest with 7800 bars, NAV=1000000"}
+{"asctime": "2026-04-12 15:45:12,921", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-04-12 15:45:12,925", "name": "tradingapp.agents.alpha_generation", "levelname": "WARNING", "message": "Unknown strategy family '' for 'dual_ma_crossover'"}
+{"asctime": "2026-04-12 15:45:12,925", "name": "tradingapp.agents.alpha_generation", "levelname": "WARNING", "message": "Unknown strategy family '' for 'bollinger_bands'"}
+{"asctime": "2026-04-12 15:45:12,925", "name": "tradingapp.agents.alpha_generation", "levelname": "WARNING", "message": "Unknown strategy family '' for 'rsi_2'"}
+{"asctime": "2026-04-12 15:45:12,925", "name": "tradingapp.agents.alpha_generation", "levelname": "WARNING", "message": "Unknown strategy family '' for 'donchian_channel'"}
+{"asctime": "2026-04-12 15:45:12,925", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Alpha agent started with 0 strategies enabled."}
+{"asctime": "2026-04-12 15:45:12,926", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=1000000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-04-12 15:45:12,926", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Portfolio Management agent started \u2014 NAV=1000000"}
+{"asctime": "2026-04-12 15:45:12,926", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-04-12 15:45:13,421", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-04-12 15:45:13,443", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 1000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,453", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 2000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,463", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 3000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,474", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 4000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,483", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 5000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,493", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 6000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,504", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 7000 / 7800 bars"}
+{"asctime": "2026-04-12 15:45:13,511", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-04-12 15:45:13,527", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest complete: 7800 bars, 0 fills, final NAV=1000000"}
+{"asctime": "2026-04-12 15:46:15,394", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-04-12 15:46:15,443", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Starting backtest with 7800 bars, NAV=1000000"}
+{"asctime": "2026-04-12 15:46:15,444", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-04-12 15:46:15,453", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Loaded strategy: dual_ma_crossover (trend_following)"}
+{"asctime": "2026-04-12 15:46:15,453", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Alpha agent started with 1 strategies enabled."}
+{"asctime": "2026-04-12 15:46:15,454", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=1000000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-04-12 15:46:15,454", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Portfolio Management agent started \u2014 NAV=1000000"}
+{"asctime": "2026-04-12 15:46:15,454", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-04-12 15:46:15,496", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-04-12 15:46:15,502", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.64"}
+{"asctime": "2026-04-12 15:46:15,502", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999663 > 50000)): BUY SPY 2080"}
+{"asctime": "2026-04-12 15:46:15,502", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2080 @ 480.61"}
+{"asctime": "2026-04-12 15:46:15,699", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:46:15,705", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999652 > 50000)): SELL SPY 2061"}
+{"asctime": "2026-04-12 15:46:15,705", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2061 @ 485.03"}
+{"asctime": "2026-04-12 15:46:15,711", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.98"}
+{"asctime": "2026-04-12 15:46:15,739", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999679 > 50000)): BUY SPY 2058"}
+{"asctime": "2026-04-12 15:46:15,739", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2058 @ 485.75"}
+{"asctime": "2026-04-12 15:46:15,815", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:46:15,842", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.83"}
+{"asctime": "2026-04-12 15:46:15,846", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (110156 > 50000)): BUY SPY 226"}
+{"asctime": "2026-04-12 15:46:15,846", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 226 @ 487.42"}
+{"asctime": "2026-04-12 15:46:15,873", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 1000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:16,124", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.97"}
+{"asctime": "2026-04-12 15:46:16,137", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999588 > 50000)): SELL SPY 2025"}
+{"asctime": "2026-04-12 15:46:16,137", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2025 @ 493.62"}
+{"asctime": "2026-04-12 15:46:16,155", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:46:16,180", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999608 > 50000)): BUY SPY 2024"}
+{"asctime": "2026-04-12 15:46:16,180", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2024 @ 493.88"}
+{"asctime": "2026-04-12 15:46:16,188", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.77"}
+{"asctime": "2026-04-12 15:46:16,224", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999792 > 50000)): SELL SPY 2020"}
+{"asctime": "2026-04-12 15:46:16,224", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2020 @ 494.95"}
+{"asctime": "2026-04-12 15:46:16,268", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.80"}
+{"asctime": "2026-04-12 15:46:16,303", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:46:16,311", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (112384 > 50000)): BUY SPY 227"}
+{"asctime": "2026-04-12 15:46:16,311", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 227 @ 495.08"}
+{"asctime": "2026-04-12 15:46:16,522", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:46:16,557", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999833 > 50000)): SELL SPY 2007"}
+{"asctime": "2026-04-12 15:46:16,557", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2007 @ 498.17"}
+{"asctime": "2026-04-12 15:46:16,572", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 2000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:17,236", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 3000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:17,241", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:46:17,256", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.74"}
+{"asctime": "2026-04-12 15:46:17,279", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Position updated: SPY \u2192 -48 shares"}
+{"asctime": "2026-04-12 15:46:17,279", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "SIM FILL: SELL SPY 48 @ 514.85"}
+{"asctime": "2026-04-12 15:46:17,279", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: SELL SPY 48"}
+{"asctime": "2026-04-12 15:46:17,281", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 48 @ 514.85"}
+{"asctime": "2026-04-12 15:46:17,753", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.76"}
+{"asctime": "2026-04-12 15:46:17,758", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999218 > 50000)): SELL SPY 1867"}
+{"asctime": "2026-04-12 15:46:17,758", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1867 @ 521.96"}
+{"asctime": "2026-04-12 15:46:17,876", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.65"}
+{"asctime": "2026-04-12 15:46:17,883", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999285 > 50000)): SELL SPY 1862"}
+{"asctime": "2026-04-12 15:46:17,884", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1862 @ 523.40"}
+{"asctime": "2026-04-12 15:46:17,894", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.56"}
+{"asctime": "2026-04-12 15:46:17,912", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 4000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:17,926", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999962 > 50000)): BUY SPY 1956"}
+{"asctime": "2026-04-12 15:46:17,927", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1956 @ 523.86"}
+{"asctime": "2026-04-12 15:46:18,267", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.99"}
+{"asctime": "2026-04-12 15:46:18,283", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.73"}
+{"asctime": "2026-04-12 15:46:18,300", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (150814 > 50000)): SELL SPY 238"}
+{"asctime": "2026-04-12 15:46:18,300", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 238 @ 529.84"}
+{"asctime": "2026-04-12 15:46:18,591", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 5000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:18,648", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:46:18,659", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (998405 > 50000)): SELL SPY 1806"}
+{"asctime": "2026-04-12 15:46:18,659", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1806 @ 539.14"}
+{"asctime": "2026-04-12 15:46:18,663", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:46:18,703", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000893 > 50000)): BUY SPY 1899"}
+{"asctime": "2026-04-12 15:46:18,703", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1899 @ 540.08"}
+{"asctime": "2026-04-12 15:46:18,802", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:46:18,826", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000822 > 50000)): BUY SPY 1897"}
+{"asctime": "2026-04-12 15:46:18,828", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1897 @ 540.61"}
+{"asctime": "2026-04-12 15:46:19,046", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.75"}
+{"asctime": "2026-04-12 15:46:19,061", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.87"}
+{"asctime": "2026-04-12 15:46:19,074", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000995 > 50000)): BUY SPY 1879"}
+{"asctime": "2026-04-12 15:46:19,074", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1879 @ 545.88"}
+{"asctime": "2026-04-12 15:46:19,277", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 6000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:19,395", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:46:19,398", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997878 > 50000)): SELL SPY 1765"}
+{"asctime": "2026-04-12 15:46:19,399", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1765 @ 551.37"}
+{"asctime": "2026-04-12 15:46:19,444", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.64"}
+{"asctime": "2026-04-12 15:46:19,484", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1001806 > 50000)): BUY SPY 1856"}
+{"asctime": "2026-04-12 15:46:19,484", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1856 @ 553.08"}
+{"asctime": "2026-04-12 15:46:19,545", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:46:19,567", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997788 > 50000)): SELL SPY 1757"}
+{"asctime": "2026-04-12 15:46:19,567", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1757 @ 553.83"}
+{"asctime": "2026-04-12 15:46:19,655", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.83"}
+{"asctime": "2026-04-12 15:46:19,693", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997941 > 50000)): SELL SPY 1749"}
+{"asctime": "2026-04-12 15:46:19,693", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1749 @ 556.45"}
+{"asctime": "2026-04-12 15:46:19,961", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 7000 / 7800 bars"}
+{"asctime": "2026-04-12 15:46:20,095", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:46:20,100", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.61"}
+{"asctime": "2026-04-12 15:46:20,137", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (117325 > 50000)): SELL SPY 164"}
+{"asctime": "2026-04-12 15:46:20,137", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 164 @ 564.71"}
+{"asctime": "2026-04-12 15:46:20,164", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:46:20,178", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997577 > 50000)): SELL SPY 1724"}
+{"asctime": "2026-04-12 15:46:20,178", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1724 @ 564.31"}
+{"asctime": "2026-04-12 15:46:20,190", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:46:20,221", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1002299 > 50000)): BUY SPY 1817"}
+{"asctime": "2026-04-12 15:46:20,221", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1817 @ 565.22"}
+{"asctime": "2026-04-12 15:46:20,501", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-04-12 15:46:20,509", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest complete: 7800 bars, 1 fills, final NAV=999998"}
+{"asctime": "2026-04-12 15:53:26,721", "name": "tradingapp.core.config", "levelname": "INFO", "message": "Logging configured from F:\\TradingApp\\config\\logging.yaml"}
+{"asctime": "2026-04-12 15:53:26,764", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Starting backtest with 7800 bars, NAV=1000000"}
+{"asctime": "2026-04-12 15:53:26,764", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus ready (backtest mode)."}
+{"asctime": "2026-04-12 15:53:26,766", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Loaded strategy: dual_ma_crossover (trend_following)"}
+{"asctime": "2026-04-12 15:53:26,766", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Alpha agent started with 1 strategies enabled."}
+{"asctime": "2026-04-12 15:53:26,766", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Risk agent started \u2014 NAV=1000000, max_pos=5.0%, max_dd=2.0%"}
+{"asctime": "2026-04-12 15:53:26,767", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Portfolio Management agent started \u2014 NAV=1000000"}
+{"asctime": "2026-04-12 15:53:26,767", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "Execution agent started."}
+{"asctime": "2026-04-12 15:53:26,808", "name": "tradingapp.agents.execution", "levelname": "WARNING", "message": "IB not connected \u2014 execution will use simulated fills"}
+{"asctime": "2026-04-12 15:53:26,812", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.64"}
+{"asctime": "2026-04-12 15:53:26,813", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999663 > 50000)): BUY SPY 2080"}
+{"asctime": "2026-04-12 15:53:26,813", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2080 @ 480.61"}
+{"asctime": "2026-04-12 15:53:26,993", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:53:26,999", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999652 > 50000)): SELL SPY 2061"}
+{"asctime": "2026-04-12 15:53:26,999", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2061 @ 485.03"}
+{"asctime": "2026-04-12 15:53:27,005", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.98"}
+{"asctime": "2026-04-12 15:53:27,030", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999679 > 50000)): BUY SPY 2058"}
+{"asctime": "2026-04-12 15:53:27,030", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2058 @ 485.75"}
+{"asctime": "2026-04-12 15:53:27,106", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:53:27,134", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.83"}
+{"asctime": "2026-04-12 15:53:27,137", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (110156 > 50000)): BUY SPY 226"}
+{"asctime": "2026-04-12 15:53:27,138", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 226 @ 487.42"}
+{"asctime": "2026-04-12 15:53:27,163", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 1000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:27,402", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.97"}
+{"asctime": "2026-04-12 15:53:27,413", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999588 > 50000)): SELL SPY 2025"}
+{"asctime": "2026-04-12 15:53:27,413", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2025 @ 493.62"}
+{"asctime": "2026-04-12 15:53:27,428", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:53:27,455", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999608 > 50000)): BUY SPY 2024"}
+{"asctime": "2026-04-12 15:53:27,455", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 2024 @ 493.88"}
+{"asctime": "2026-04-12 15:53:27,460", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.77"}
+{"asctime": "2026-04-12 15:53:27,497", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999792 > 50000)): SELL SPY 2020"}
+{"asctime": "2026-04-12 15:53:27,497", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2020 @ 494.95"}
+{"asctime": "2026-04-12 15:53:27,538", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.80"}
+{"asctime": "2026-04-12 15:53:27,572", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:53:27,579", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (112384 > 50000)): BUY SPY 227"}
+{"asctime": "2026-04-12 15:53:27,579", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 227 @ 495.08"}
+{"asctime": "2026-04-12 15:53:27,785", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:53:27,816", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999833 > 50000)): SELL SPY 2007"}
+{"asctime": "2026-04-12 15:53:27,818", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 2007 @ 498.17"}
+{"asctime": "2026-04-12 15:53:27,831", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 2000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:28,480", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 3000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:28,486", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:53:28,500", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.74"}
+{"asctime": "2026-04-12 15:53:28,521", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Position updated: SPY \u2192 -48 shares"}
+{"asctime": "2026-04-12 15:53:28,521", "name": "tradingapp.agents.execution", "levelname": "INFO", "message": "SIM FILL: SELL SPY 48 @ 514.85"}
+{"asctime": "2026-04-12 15:53:28,521", "name": "tradingapp.agents.risk_management", "levelname": "INFO", "message": "Order APPROVED: SELL SPY 48"}
+{"asctime": "2026-04-12 15:53:28,522", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 48 @ 514.85"}
+{"asctime": "2026-04-12 15:53:28,991", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.76"}
+{"asctime": "2026-04-12 15:53:28,997", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999218 > 50000)): SELL SPY 1867"}
+{"asctime": "2026-04-12 15:53:28,997", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1867 @ 521.96"}
+{"asctime": "2026-04-12 15:53:29,112", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.65"}
+{"asctime": "2026-04-12 15:53:29,119", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999285 > 50000)): SELL SPY 1862"}
+{"asctime": "2026-04-12 15:53:29,120", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1862 @ 523.40"}
+{"asctime": "2026-04-12 15:53:29,129", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.56"}
+{"asctime": "2026-04-12 15:53:29,146", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 4000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:29,161", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (999962 > 50000)): BUY SPY 1956"}
+{"asctime": "2026-04-12 15:53:29,161", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1956 @ 523.86"}
+{"asctime": "2026-04-12 15:53:29,488", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.99"}
+{"asctime": "2026-04-12 15:53:29,503", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.73"}
+{"asctime": "2026-04-12 15:53:29,519", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (150814 > 50000)): SELL SPY 238"}
+{"asctime": "2026-04-12 15:53:29,520", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 238 @ 529.84"}
+{"asctime": "2026-04-12 15:53:29,805", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 5000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:29,863", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:53:29,874", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (998405 > 50000)): SELL SPY 1806"}
+{"asctime": "2026-04-12 15:53:29,874", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1806 @ 539.14"}
+{"asctime": "2026-04-12 15:53:29,879", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:53:29,915", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000893 > 50000)): BUY SPY 1899"}
+{"asctime": "2026-04-12 15:53:29,915", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1899 @ 540.08"}
+{"asctime": "2026-04-12 15:53:30,015", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:53:30,039", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000822 > 50000)): BUY SPY 1897"}
+{"asctime": "2026-04-12 15:53:30,040", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1897 @ 540.61"}
+{"asctime": "2026-04-12 15:53:30,258", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.75"}
+{"asctime": "2026-04-12 15:53:30,271", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.87"}
+{"asctime": "2026-04-12 15:53:30,283", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1000995 > 50000)): BUY SPY 1879"}
+{"asctime": "2026-04-12 15:53:30,283", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1879 @ 545.88"}
+{"asctime": "2026-04-12 15:53:30,479", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 6000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:30,598", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:53:30,601", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997878 > 50000)): SELL SPY 1765"}
+{"asctime": "2026-04-12 15:53:30,601", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1765 @ 551.37"}
+{"asctime": "2026-04-12 15:53:30,643", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.64"}
+{"asctime": "2026-04-12 15:53:30,683", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1001806 > 50000)): BUY SPY 1856"}
+{"asctime": "2026-04-12 15:53:30,684", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1856 @ 553.08"}
+{"asctime": "2026-04-12 15:53:30,743", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.66"}
+{"asctime": "2026-04-12 15:53:30,764", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997788 > 50000)): SELL SPY 1757"}
+{"asctime": "2026-04-12 15:53:30,764", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1757 @ 553.83"}
+{"asctime": "2026-04-12 15:53:30,851", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.83"}
+{"asctime": "2026-04-12 15:53:30,886", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997941 > 50000)): SELL SPY 1749"}
+{"asctime": "2026-04-12 15:53:30,887", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1749 @ 556.45"}
+{"asctime": "2026-04-12 15:53:31,154", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest progress: 7000 / 7800 bars"}
+{"asctime": "2026-04-12 15:53:31,286", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=0.78"}
+{"asctime": "2026-04-12 15:53:31,291", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.61"}
+{"asctime": "2026-04-12 15:53:31,326", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (117325 > 50000)): SELL SPY 164"}
+{"asctime": "2026-04-12 15:53:31,326", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 164 @ 564.71"}
+{"asctime": "2026-04-12 15:53:31,355", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover SHORT SPY conviction=1.00"}
+{"asctime": "2026-04-12 15:53:31,367", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (997577 > 50000)): SELL SPY 1724"}
+{"asctime": "2026-04-12 15:53:31,368", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: SELL SPY 1724 @ 564.31"}
+{"asctime": "2026-04-12 15:53:31,378", "name": "tradingapp.agents.alpha_generation", "levelname": "INFO", "message": "Signal: dual_ma_crossover LONG SPY conviction=0.57"}
+{"asctime": "2026-04-12 15:53:31,408", "name": "tradingapp.agents.risk_management", "levelname": "WARNING", "message": "Order REJECTED (POSITION_SIZE_EXCEEDED (1002299 > 50000)): BUY SPY 1817"}
+{"asctime": "2026-04-12 15:53:31,409", "name": "tradingapp.agents.portfolio_management", "levelname": "INFO", "message": "Proposed: BUY SPY 1817 @ 565.22"}
+{"asctime": "2026-04-12 15:53:31,683", "name": "tradingapp.core.message_bus", "levelname": "INFO", "message": "In-process message bus shut down."}
+{"asctime": "2026-04-12 15:53:31,690", "name": "tradingapp.backtest.engine", "levelname": "INFO", "message": "Backtest complete: 7800 bars, 1 fills, final NAV=999998"}
